@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="pixel438_scaled <= 0.0\ngini = 0.9\nsamples = 33189\nvalue = [5186, 5888, 5261, 5358, 5177, 4794, 5135, 5397, 5136\n5168]", fillcolor="#fffffd"] ;
+1 [label="pixel484_scaled <= 0.03\ngini = 0.83\nsamples = 11840\nvalue = [4038, 5487, 1682, 1272, 237, 1933, 1340, 578, 1889\n309]", fillcolor="#fcfcec"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="pixel235_scaled <= 0.0\ngini = 0.78\nsamples = 8372\nvalue = [577, 5464, 1176, 1114, 174, 1566, 784, 527, 1627\n257]", fillcolor="#f5f6be"] ;
+1 -> 2 ;
+3 [label="gini = 0.62\nsamples = 5699\nvalue = [145, 5360, 614, 614, 97, 824, 395, 167, 694, 126]", fillcolor="#eff192"] ;
+2 -> 3 ;
+4 [label="gini = 0.86\nsamples = 2673\nvalue = [432, 104, 562, 500, 77, 742, 389, 360, 933, 131]", fillcolor="#fef4fc"] ;
+2 -> 4 ;
+5 [label="pixel355_scaled <= 0.2\ngini = 0.58\nsamples = 3468\nvalue = [3461, 23, 506, 158, 63, 367, 556, 51, 262, 52]", fillcolor="#f0b58b"] ;
+1 -> 5 ;
+6 [label="gini = 0.37\nsamples = 2440\nvalue = [3055, 10, 347, 14, 39, 238, 115, 35, 27, 23]", fillcolor="#eb9f68"] ;
+5 -> 6 ;
+7 [label="gini = 0.81\nsamples = 1028\nvalue = [406, 13, 159, 144, 24, 129, 441, 16, 235, 29]", fillcolor="#f9f9fe"] ;
+5 -> 7 ;
+8 [label="pixel101_scaled <= 0.0\ngini = 0.88\nsamples = 21349\nvalue = [1148, 401, 3579, 4086, 4940, 2861, 3795, 4819, 3247\n4859]", fillcolor="#feffff"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="pixel351_scaled <= 0.46\ngini = 0.87\nsamples = 19336\nvalue = [1104, 386, 2736, 3963, 4902, 2790, 1763, 4819, 3224\n4859]", fillcolor="#ffffff"] ;
+8 -> 9 ;
+10 [label="gini = 0.85\nsamples = 13652\nvalue = [921, 30, 2476, 700, 4523, 1540, 1439, 4461, 1520\n3914]", fillcolor="#feffff"] ;
+9 -> 10 ;
+11 [label="gini = 0.8\nsamples = 5684\nvalue = [183, 356, 260, 3263, 379, 1250, 324, 358, 1704, 945]", fillcolor="#d5f9dd"] ;
+9 -> 11 ;
+12 [label="pixel271_scaled <= 0.02\ngini = 0.52\nsamples = 2013\nvalue = [44, 15, 843, 123, 38, 71, 2032, 0, 23, 0]", fillcolor="#9c9bf2"] ;
+8 -> 12 ;
+13 [label="gini = 0.27\nsamples = 1479\nvalue = [6, 7, 221, 19, 26, 70, 2013, 0, 13, 0]", fillcolor="#5d5ae9"] ;
+12 -> 13 ;
+14 [label="gini = 0.4\nsamples = 534\nvalue = [38, 8, 622, 104, 12, 1, 19, 0, 10, 0]", fillcolor="#9fec6f"] ;
+12 -> 14 ;
+}
